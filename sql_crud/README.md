@@ -26,7 +26,8 @@ The following files are included in this project:
 |[0-create\_table.sql](0-create_table.sql) | Define a table names books. |
 |[1-insert\_data.sql](1-insert_data.sql) | Insert book records into table. |
 |[2-select\_all.sql](2-select_all.sql) | Retrieves data from books table. |
-|
+|[3-select\_columns.sql](3-select_columns.sql) | Return title, price for all books in table |
+|[]() | |
 
 ## Tasks
 There are 11 tasks in total:
@@ -40,4 +41,8 @@ There are 11 tasks in total:
 - * - means all columns
 - FROM books - gets data from books table
 
-4. []():
+4. [3-select\_columns.sql](3-select_columns.sql): Retrieves only title, price columns from books table. Shows how to select speific columns instead of all data.
+- SELECT - retrieves data
+- title, price - speicific columns to get
+
+5. []():
