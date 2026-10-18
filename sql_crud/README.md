@@ -29,6 +29,7 @@ The following files are included in this project:
 |[3-select\_columns.sql](3-select_columns.sql) | Return title, price for all books in table |
 |[4-filter\_by\_genre.sql](4-filter_by_genre.sql), [4-filter\_by\_price.sql](4-filter_by_price.sql), [4-filter\_with\_and.sql](4-filter_with_and.sql), [4-filter\_with\_or.sql](4-filter_with_or.sql) | Filter data from books table. |
 |[5-update\_by\_id.sql](5-update_by_id.sql), [5-update\_by\_condition.sql](5-update_by_condition.sql), [5-update\_with\_and.sql](5-update_with_and.sql) | Update rows using primary keys, conditions and compound conditions. |
+|[6-delete\_by\_id.sql](6-delete_by_id.sql), [6-delete\_by\_condition.sql](6-delete_by_condition.sql), [6-delete\_with\_and.sql](6-delete_with_and.sql) | Delete rows using primary key, conditions and compound conditions. |
 
 ## Tasks
 There are 11 tasks in total:
@@ -55,4 +56,6 @@ There are 11 tasks in total:
 - [5-update\_by\_condition.sql](5-update_by_condition.sql): Update multiple row conditions where published year books below 2000 will increase stock + 5
 - [5-update\_with\_and.sql](5-update_with_and.sql): Update multiple compound condition rows that decreases price by 10% for all books where genre = 'Tech' AND stock > 5
 
-7.  
+7. [6-delete\_by\_id.sql](6-delete_by_id.sql): Delete one row using primary key where id = 9
+- [6-delete\_by\_condition.sql](6-delete_by_condition.sql): Delete multiple rows using condition where stock = 0
+- [6-delete\_with\_and.sql](6-delete_with_and.sql): Delete multiple rows using compound condition where published year < 1950 AND price < 9
