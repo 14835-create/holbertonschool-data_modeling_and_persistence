@@ -31,6 +31,7 @@ The following files are included in this project:
 |[5-update\_by\_id.sql](5-update_by_id.sql), [5-update\_by\_condition.sql](5-update_by_condition.sql), [5-update\_with\_and.sql](5-update_with_and.sql) | Update rows using primary keys, conditions and compound conditions. |
 |[6-delete\_by\_id.sql](6-delete_by_id.sql), [6-delete\_by\_condition.sql](6-delete_by_condition.sql), [6-delete\_with\_and.sql](6-delete_with_and.sql) | Delete rows using primary key, conditions and compound conditions. |
 |[7-order\_by\_price\_asc.sql](7-order_by_price_asc.sql), [7-order\_by\_year\_desc.sql](7-order_by_year_desc.sql), [7-limit\_results.sql](7-limit_results.sql), [7-order\_and\_limit.sql](7-order_and_limit.sql) | Delete order results ascemding, descending, limit results and order by limit. |
+|[8-count\_books.sql](8-count_books.sql), [8-average\_price.sql](8-average_price.sql), [8-max\_stock.sql](8-max_stock.sql), [8-total\_stock.sql](8-total_stock.sql), [8-min\_price.sql](8-min_price.sql) | Count total rows, calculate average price, find maximum stock, calculate total stock, find minimum price. |
 
 ## Tasks
 There are 11 tasks in total:
@@ -66,4 +67,10 @@ There are 11 tasks in total:
 - [7-limit\_results.sql](7-limit_results.sql): Limit results
 - [7-order\_and\_limit.sql](7-order_and_limit.sql): combine order by and limit
 
-9. 
+9. [8-count\_books.sql](8-count_books.sql): Count total rows
+- [8-average\_price.sql](8-average_price.sql): Calculate average price
+- [8-max\_stock.sql](8-max_stock.sql): Find manimum stock
+- [8-total\_stock.sql](8-total_stock.sql): Calculate total stocks
+- [8-min\_price.sql](8-min_price.sql): Find minimum price
+
+10. 
