@@ -30,6 +30,7 @@ The following files are included in this project:
 |[4-filter\_by\_genre.sql](4-filter_by_genre.sql), [4-filter\_by\_price.sql](4-filter_by_price.sql), [4-filter\_with\_and.sql](4-filter_with_and.sql), [4-filter\_with\_or.sql](4-filter_with_or.sql) | Filter data from books table. |
 |[5-update\_by\_id.sql](5-update_by_id.sql), [5-update\_by\_condition.sql](5-update_by_condition.sql), [5-update\_with\_and.sql](5-update_with_and.sql) | Update rows using primary keys, conditions and compound conditions. |
 |[6-delete\_by\_id.sql](6-delete_by_id.sql), [6-delete\_by\_condition.sql](6-delete_by_condition.sql), [6-delete\_with\_and.sql](6-delete_with_and.sql) | Delete rows using primary key, conditions and compound conditions. |
+|[7-order\_by\_price\_asc.sql](7-order_by_price_asc.sql), [7-order\_by\_year\_desc.sql](7-order_by_year_desc.sql), [7-limit\_results.sql](7-limit_results.sql), [7-order\_and\_limit.sql](7-order_and_limit.sql) | Delete order results ascemding, descending, limit results and order by limit. |
 
 ## Tasks
 There are 11 tasks in total:
@@ -59,3 +60,10 @@ There are 11 tasks in total:
 7. [6-delete\_by\_id.sql](6-delete_by_id.sql): Delete one row using primary key where id = 9
 - [6-delete\_by\_condition.sql](6-delete_by_condition.sql): Delete multiple rows using condition where stock = 0
 - [6-delete\_with\_and.sql](6-delete_with_and.sql): Delete multiple rows using compound condition where published year < 1950 AND price < 9
+
+8. [7-order\_by\_price\_asc.sql](7-order_by_price_asc.sql): order results ascending
+- [7-order\_by\_year\_desc.sql](7-order_by_year_desc.sql): Order results descending
+- [7-limit\_results.sql](7-limit_results.sql): Limit results
+- [7-order\_and\_limit.sql](7-order_and_limit.sql): combine order by and limit
+
+9. 
