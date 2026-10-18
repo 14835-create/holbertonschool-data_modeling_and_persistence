@@ -28,6 +28,7 @@ The following files are included in this project:
 |[2-select\_all.sql](2-select_all.sql) | Retrieves data from books table. |
 |[3-select\_columns.sql](3-select_columns.sql) | Return title, price for all books in table |
 |[4-filter\_by\_genre.sql](4-filter_by_genre.sql), [4-filter\_by\_price.sql](4-filter_by_price.sql), [4-filter\_with\_and.sql](4-filter_with_and.sql), [4-filter\_with\_or.sql](4-filter_with_or.sql) | Filter data from books table. |
+|[5-update\_by\_id.sql](5-update_by_id.sql), [5-update\_by\_condition.sql](5-update_by_condition.sql), [5-update\_with\_and.sql](5-update_with_and.sql) | Update rows using primary keys, conditions and compound conditions. |
 
 ## Tasks
 There are 11 tasks in total:
@@ -46,8 +47,12 @@ There are 11 tasks in total:
 - title, price - speicific columns to get
 
 5. [4-filter\_by\_genre.sql](4-filter_by_genre.sql): Returns title, author for all books where genre = 'Tech'
-[4-filter\_by\_price.sql](4-filter_by_price.sql): Returns title, price for all books where price > 20
-[4-filter\_with\_and.sql](4-filter_with_and.sql): Returns title, price for all books where genre = 'Tech' AND price > 30
-[4-filter\_with\_or.sql](4-filter_with_or.sql): Returns title, genre for all books where genre = 'Fantasy' OR price < 10
+- [4-filter\_by\_price.sql](4-filter_by_price.sql): Returns title, price for all books where price > 20
+- [4-filter\_with\_and.sql](4-filter_with_and.sql): Returns title, price for all books where genre = 'Tech' AND price > 30
+- [4-filter\_with\_or.sql](4-filter_with_or.sql): Returns title, genre for all books where genre = 'Fantasy' OR price < 10
 
-6. [
+6. [5-update\_by\_id.sql](5-update_by_id.sql): Update primary key where id = 3 beomes a new value of 35.00
+- [5-update\_by\_condition.sql](5-update_by_condition.sql): Update multiple row conditions where published year books below 2000 will increase stock + 5
+- [5-update\_with\_and.sql](5-update_with_and.sql): Update multiple compound condition rows that decreases price by 10% for all books where genre = 'Tech' AND stock > 5
+
+7.  
