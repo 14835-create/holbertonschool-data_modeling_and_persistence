@@ -27,7 +27,7 @@ The following files are included in this project:
 |[1-insert\_data.sql](1-insert_data.sql) | Insert book records into table. |
 |[2-select\_all.sql](2-select_all.sql) | Retrieves data from books table. |
 |[3-select\_columns.sql](3-select_columns.sql) | Return title, price for all books in table |
-|[]() | |
+|[4-filter\_by\_genre.sql](4-filter_by_genre.sql), [4-filter\_by\_price.sql](4-filter_by_price.sql), [4-filter\_with\_and.sql](4-filter_with_and.sql), [4-filter\_with\_or.sql](4-filter_with_or.sql) | Filter data from books table. |
 
 ## Tasks
 There are 11 tasks in total:
@@ -45,4 +45,9 @@ There are 11 tasks in total:
 - SELECT - retrieves data
 - title, price - speicific columns to get
 
-5. []():
+5. [4-filter\_by\_genre.sql](4-filter_by_genre.sql): Returns title, author for all books where genre = 'Tech'
+[4-filter\_by\_price.sql](4-filter_by_price.sql): Returns title, price for all books where price > 20
+[4-filter\_with\_and.sql](4-filter_with_and.sql): Returns title, price for all books where genre = 'Tech' AND price > 30
+[4-filter\_with\_or.sql](4-filter_with_or.sql): Returns title, genre for all books where genre = 'Fantasy' OR price < 10
+
+6. [
