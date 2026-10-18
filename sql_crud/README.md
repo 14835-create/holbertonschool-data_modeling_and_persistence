@@ -21,14 +21,16 @@ Use aggregate functions:
 
 ## Project File Table
 The following files are included in this project:
-- all pycodestyle compliant
-
 | File | Description |
 | ---- | ----------- |
 |[0-create\_table.sql](0-create_table.sql) | Define a table names books. |
-|[]() | |
+|[1-insert\_data.sql](1-insert_data.sql) | Insert book records into table. |
 
 ## Tasks
-1. [0-create\_table.sql](0-create_table.sql): The table created was called books. It's a database structure that stores book records. Each row represents one book and each column stores speicifc information about the books lsited. Author, genre, price, stock and published\_year.
+There are 11 tasks in total:
 
-2. []():
+1. [0-create\_table.sql](0-create_table.sql): The table created was called books. It's a database structure that stores book records. Each row represents one book and each column stores speicifc information about the books lsited. Author, genre, price, stock and published\_year. Id is the defined primary key to identify each book and fields.
+
+2. [1-insert\_data.sql](1-insert_data.sql): Inserts dataset of 5 books. Every INSERT INTO statement adds a complete record containing books id, titale, author, genre, price, stock avalible and the published year.
+
+3. [](): 
