@@ -33,6 +33,7 @@ The following files are included in this project:
 |[7-order\_by\_price\_asc.sql](7-order_by_price_asc.sql), [7-order\_by\_year\_desc.sql](7-order_by_year_desc.sql), [7-limit\_results.sql](7-limit_results.sql), [7-order\_and\_limit.sql](7-order_and_limit.sql) | Delete order results ascemding, descending, limit results and order by limit. |
 |[8-count\_books.sql](8-count_books.sql), [8-average\_price.sql](8-average_price.sql), [8-max\_stock.sql](8-max_stock.sql), [8-total\_stock.sql](8-total_stock.sql), [8-min\_price.sql](8-min_price.sql) | Count total rows, calculate average price, find maximum stock, calculate total stock, find minimum price. |
 |[9-count\_by\_genre.sql](9-count_by_genre.sql), [9-average\_price\_by\_genre.sql](9-average_price_by_genre.sql), [9-total\_stock\_by\_genre.sql](9-total_stock_by_genre.sql), [9-count\_by\_author.sql](9-count_by_author.sql) | Group by data. |
+|[10-select\_tech\_books.sql](10-select_tech_books.sql), [10-increase\_stock.sql](10-increase_stock.sql), [10-delete\_zero\_stock.sql](10-delete_zero_stock.sql), [10-cheapest\_available.sql](10-cheapest_available.sql), [10-stock\_by\_genre.sql](10-stock_by_genre.sql), [10-average\_price\_by\_genre.sql](10-average_price_by_genre.sql) | Difeerent user requirements. |
 
 ## Tasks
 There are 11 tasks in total:
@@ -79,4 +80,9 @@ There are 11 tasks in total:
 - [9-total\_stock\_by\_genre.sql](9-total_stock_by_genre.sql): Total stock by genre
 - [9-count\_by\_author.sql](9-count_by_author.sql): Count books by author
 
-11. 
+11. [10-select\_tech\_books.sql](10-select_tech_books.sql): Retrieve ava tehnical books
+- [10-increase\_stock.sql](10-increase_stock.sql): Increase stock for low-ava books
+- [10-delete\_zero\_stock.sql](10-delete_zero_stock.sql): Remove unava books
+- [10-cheapest\_available.sql](10-cheapest_available.sql): Find cheapest ava books
+- [10-stock\_by\_genre.sql](10-stock_by_genre.sql): Total stock per genre
+- [10-average\_price\_by\_genre.sql](10-average_price_by_genre.sql): Average price per game
