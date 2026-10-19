@@ -32,6 +32,7 @@ The following files are included in this project:
 |[6-delete\_by\_id.sql](6-delete_by_id.sql), [6-delete\_by\_condition.sql](6-delete_by_condition.sql), [6-delete\_with\_and.sql](6-delete_with_and.sql) | Delete rows using primary key, conditions and compound conditions. |
 |[7-order\_by\_price\_asc.sql](7-order_by_price_asc.sql), [7-order\_by\_year\_desc.sql](7-order_by_year_desc.sql), [7-limit\_results.sql](7-limit_results.sql), [7-order\_and\_limit.sql](7-order_and_limit.sql) | Delete order results ascemding, descending, limit results and order by limit. |
 |[8-count\_books.sql](8-count_books.sql), [8-average\_price.sql](8-average_price.sql), [8-max\_stock.sql](8-max_stock.sql), [8-total\_stock.sql](8-total_stock.sql), [8-min\_price.sql](8-min_price.sql) | Count total rows, calculate average price, find maximum stock, calculate total stock, find minimum price. |
+|[9-count\_by\_genre.sql](9-count_by_genre.sql), [9-average\_price\_by\_genre.sql](9-average_price_by_genre.sql), [9-total\_stock\_by\_genre.sql](9-total_stock_by_genre.sql), [9-count\_by\_author.sql](9-count_by_author.sql) | Group by data. |
 
 ## Tasks
 There are 11 tasks in total:
@@ -73,4 +74,9 @@ There are 11 tasks in total:
 - [8-total\_stock.sql](8-total_stock.sql): Calculate total stocks
 - [8-min\_price.sql](8-min_price.sql): Find minimum price
 
-10. 
+10. [9-count\_by\_genre.sql](9-count_by_genre.sql): Count books by genre
+- [9-average\_price\_by\_genre.sql](9-average_price_by_genre.sql): Average price by genre
+- [9-total\_stock\_by\_genre.sql](9-total_stock_by_genre.sql): Total stock by genre
+- [9-count\_by\_author.sql](9-count_by_author.sql): Count books by author
+
+11. 
